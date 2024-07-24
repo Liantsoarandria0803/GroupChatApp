@@ -1,0 +1,90 @@
+.body{
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* background: linear-gradient(103.43deg, #ED4545 1.56%, #521FA5 52.62%, #1887C6 90.36%); */
+     height:100vh;
+     border-radius: 40px;
+     
+}
+.title{
+    color: blueviolet;
+}
+.login{
+    border-radius: 23px;
+    padding: 40px;
+    height: 23em;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    box-shadow: 12px 12px 7px rgb(177, 177, 177);
+}
+.login img{
+    width: 70px;
+    border-radius: 50px;
+    border: solid 0.2px rgb(132, 58, 250);
+}
+input{
+    padding-left: 10px;
+    height:30px;
+    width:300px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+label{
+    color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.inscri{
+    margin-left: 34vw;
+}
+button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color:  rgb(132, 58, 250);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 4px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+#eye{
+    width: 20px;
+    border: none;
+}
+#password{
+    background-color: white;
+    border-radius: 7px;
+}
+#password input{
+    padding-left: 10px;
+    height:30px;
+    width:270px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+.error{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
