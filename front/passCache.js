@@ -1,4 +1,5 @@
 let interrupt=0;
+document.getElementById("eye").setAttribute('src','./img/eye-slash.svg')
 document.getElementById("eye").onclick=function(){
  let element1=document.getElementById("pass");
  let element2=document.getElementById("eye");
